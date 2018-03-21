@@ -1,6 +1,6 @@
 Simple init.d script used on RHEL 5/6 for the apache_exporter used in conjunction with Prometheus.
 
-'''
+```
 #!/bin/sh
 ### BEGIN INIT INFO
 # Provides:          apache exporter
@@ -64,4 +64,4 @@ esac
 
 exit 0
 
-'''
+```
