@@ -65,3 +65,8 @@ esac
 exit 0
 
 ```
+The above script will read any run-time arguments associated with the apache_exporter application from the /etc/default/apache_exporter file.  A sample of possible arguments is as follows:
+
+```
+ARGS="-insecure -scrape_uri https://localhost:443/server-status?auto"
+```
