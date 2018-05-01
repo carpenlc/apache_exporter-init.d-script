@@ -54,8 +54,8 @@ case "$1" in
     do_stop_cmd
     ;;
   restart)
-    stop
-    start
+    do_stop_cmd
+    do_start_cmd
     ;;
   *)
     echo "Usage: $1 {start|stop|status|restart|uninstall}"
